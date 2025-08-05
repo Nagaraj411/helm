@@ -19,6 +19,7 @@ spec:
   template:
     metadata:
       labels:
+        purpose: deployment-demo
         project: roboshop
         app: nginx
     spec:
